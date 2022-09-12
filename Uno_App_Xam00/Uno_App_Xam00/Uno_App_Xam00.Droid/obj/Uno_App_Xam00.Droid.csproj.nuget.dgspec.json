@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\barnet\\Documents\\_bnt\\_sn\\!git\\uno_test\\Uno_App_Xam00\\Uno_App_Xam00\\Uno_App_Xam00.Droid\\Uno_App_Xam00.Droid.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\barnet\\Documents\\_bnt\\_sn\\!git\\uno_test\\Uno_App_Xam00\\Uno_App_Xam00\\Uno_App_Xam00.Droid\\Uno_App_Xam00.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\barnet\\Documents\\_bnt\\_sn\\!git\\uno_test\\Uno_App_Xam00\\Uno_App_Xam00\\Uno_App_Xam00.Droid\\Uno_App_Xam00.Droid.csproj",
+        "projectName": "Uno_App_Xam00.Droid",
+        "projectPath": "C:\\Users\\barnet\\Documents\\_bnt\\_sn\\!git\\uno_test\\Uno_App_Xam00\\Uno_App_Xam00\\Uno_App_Xam00.Droid\\Uno_App_Xam00.Droid.csproj",
+        "packagesPath": "C:\\Users\\barnet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\barnet\\Documents\\_bnt\\_sn\\!git\\uno_test\\Uno_App_Xam00\\Uno_App_Xam00\\Uno_App_Xam00.Droid\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\barnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid12.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid12.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid12.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[4.4.20, )"
+            },
+            "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[4.4.20, )"
+            },
+            "Uno.UI.RemoteControl": {
+              "target": "Package",
+              "version": "[4.4.20, )"
+            },
+            "Uno.UniversalImageLoader": {
+              "target": "Package",
+              "version": "[1.9.33, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

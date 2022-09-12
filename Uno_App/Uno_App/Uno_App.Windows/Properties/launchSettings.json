@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Uno_App.Windows": {
+      "commandName": "MsixPackage"
+    }
+  }
+}
