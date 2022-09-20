@@ -1,0 +1,5 @@
+C:\Users\barnet\Documents\_bnt\_sn\!git\uno_test\Uno_App\Uno_App\Uno_App.Skia.Gtk\obj\Debug\net6.0\Uno_App.Skia.Gtk.csproj.AssemblyReference.cache
+C:\Users\barnet\Documents\_bnt\_sn\!git\uno_test\Uno_App\Uno_App\Uno_App.Skia.Gtk\obj\Debug\net6.0\Uno_App.Skia.Gtk.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\barnet\Documents\_bnt\_sn\!git\uno_test\Uno_App\Uno_App\Uno_App.Skia.Gtk\obj\Debug\net6.0\Uno_App.Skia.Gtk.AssemblyInfoInputs.cache
+C:\Users\barnet\Documents\_bnt\_sn\!git\uno_test\Uno_App\Uno_App\Uno_App.Skia.Gtk\obj\Debug\net6.0\Uno_App.Skia.Gtk.AssemblyInfo.cs
+C:\Users\barnet\Documents\_bnt\_sn\!git\uno_test\Uno_App\Uno_App\Uno_App.Skia.Gtk\obj\Debug\net6.0\Uno_App.Skia.Gtk.csproj.CoreCompileInputs.cache

@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Devices.Input;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 
@@ -48,6 +49,11 @@ namespace Uno_App
         }
 
         private void Click_btnDebug(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Click_btnOpenPage_modal(object sender, RoutedEventArgs e)
         {
 
         }

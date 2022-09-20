@@ -252,3 +252,4 @@ C:\Users\barnet\Documents\_bnt\_sn\!git\uno_test\Uno_App\Uno_App\Uno_App.Mobile\
 C:\Users\barnet\Documents\_bnt\_sn\!git\uno_test\Uno_App\Uno_App\Uno_App.Mobile\obj\Debug\net6.0-ios\iossimulator-x64\Uno_App.Mobile.pdb
 C:\Users\barnet\Documents\_bnt\_sn\!git\uno_test\Uno_App\Uno_App\Uno_App.Mobile\obj\Debug\net6.0-ios\iossimulator-x64\Uno_App.Mobile.genruntimeconfig.cache
 C:\Users\barnet\Documents\_bnt\_sn\!git\uno_test\Uno_App\Uno_App\Uno_App.Mobile\obj\Debug\net6.0-ios\iossimulator-x64\ref\Uno_App.Mobile.dll
+C:\Users\barnet\Documents\_bnt\_sn\!git\uno_test\Uno_App\Uno_App\Uno_App.Mobile\obj\Debug\net6.0-ios\iossimulator-x64\build-signature\signature

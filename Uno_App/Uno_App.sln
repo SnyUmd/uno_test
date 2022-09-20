@@ -7,13 +7,13 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Uno_App.Shared", "Uno_App\U
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{7BFC6524-A4DA-4788-BE5E-7F47B48BE7FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uno_App.Wasm", "Uno_App\Uno_App.Wasm\Uno_App.Wasm.csproj", "{8B75F1E7-5FC4-4448-BC72-7802C5C652B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uno_App.Wasm", "Uno_App\Uno_App.Wasm\Uno_App.Wasm.csproj", "{8B75F1E7-5FC4-4448-BC72-7802C5C652B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uno_App.Mobile", "Uno_App\Uno_App.Mobile\Uno_App.Mobile.csproj", "{E0717D90-F607-4A2A-9A09-99837410AE53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uno_App.Mobile", "Uno_App\Uno_App.Mobile\Uno_App.Mobile.csproj", "{E0717D90-F607-4A2A-9A09-99837410AE53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uno_App.Skia.Gtk", "Uno_App\Uno_App.Skia.Gtk\Uno_App.Skia.Gtk.csproj", "{6205ACB2-EDA0-495C-B702-349ADE6A8908}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uno_App.Skia.Gtk", "Uno_App\Uno_App.Skia.Gtk\Uno_App.Skia.Gtk.csproj", "{6205ACB2-EDA0-495C-B702-349ADE6A8908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uno_App.Windows", "Uno_App\Uno_App.Windows\Uno_App.Windows.csproj", "{0317B68F-95F3-48CB-8F34-37636EF269CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uno_App.Windows", "Uno_App\Uno_App.Windows\Uno_App.Windows.csproj", "{0317B68F-95F3-48CB-8F34-37636EF269CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

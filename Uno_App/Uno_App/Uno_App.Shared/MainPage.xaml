@@ -11,7 +11,9 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="2*"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <Grid>
@@ -27,60 +29,74 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <Button Grid.Column="0"
-                    Grid.Row="0"
-                    x:Name="btnPopUp"
-                    Content="PopUp"
-                    FontSize="10"
-                    Width ="150"
-                    Height ="40"
-                    HorizontalAlignment="Center"
-                    Click ="Click_btnPopUp"
-                    />
-            <Button Grid.Column="2"
-                    Grid.Row="0"
-                    x:Name="btnFileRead"
-                    Content="FileRead"
-                    FontSize="10"
-                    Width="150"
-                    Height="40"
-                    HorizontalAlignment="Center"
-                    Click="Click_btnFileRead"
-                    />
-            <Button Grid.Column="0"
-                    Grid.Row="1"
-                    x:Name="btnOpenPage"
-                    Content="Open page"
-                    FontSize="10"
-                    Width="150"
-                    Height="40"
-                    HorizontalAlignment="Center"
-                    Click="Click_btnOpenPage"
-                    />
-            
-            
+            <Button 
+                Grid.Column="0"
+                Grid.Row="0"
+                x:Name="btnPopUp"
+                Content="PopUp"
+                FontSize="10"
+                Width="150"
+                Height="40"
+                Click="Click_btnPopUp"/>
+            <Button 
+                Grid.Column="2"
+                Grid.Row="0"
+                x:Name="btnFileRead"
+                Content="FileRead"
+                FontSize="10"
+                Width="150"
+                Height="40"
+                Click="Click_btnFileRead"/>
 
-            <Button Grid.Column="0"
-                    Grid.Row="2"
-                    x:Name="btnReadGPIO"
-                    Content="Read Linux GPIO"
-                    FontSize="10"
-                    Width="150"
-                    Height="40"
-                    HorizontalAlignment="Center"
-                    Click="Click_btnReadGPIO"
-                    />
-            <Button Grid.Column="2"
-                    Grid.Row="2"
-                    x:Name="btnDebug"
-                    Content="Debug000"
-                    FontSize="10"
-                    Width="150"
-                    Height="40"
-                    HorizontalAlignment="Center"
-                    Click="Click_btnDebug"
-                    />
+            <Button 
+                Grid.Column="0"
+                Grid.Row="1"
+                x:Name="btnOpenPage"
+                Content="Open page"
+                FontSize="10"
+                Width="150"
+                Height="40"
+                Click="Click_btnOpenPage"/>
+            <Button 
+                Grid.Column="2"
+                Grid.Row="1"
+                x:Name="btnOpenPage_modal"
+                Content="Open page【Modal】"
+                FontSize="10"
+                Width="150"
+                Height="40"
+                Click="Click_btnOpenPage_modal"/>
 
+            <Button 
+                Grid.Column="0"
+                Grid.Row="2"
+                x:Name="btnReadGPIO"
+                Content="Read Linux GPIO"
+                FontSize="10"
+                Width="150"
+                Height="40"
+                Click="Click_btnReadGPIO"/>
+            <Button 
+                Grid.Column="2"
+                Grid.Row="2"
+                x:Name="btnDebug"
+                Content="Debug"
+                FontSize="10"
+                Width="150"
+                Height="40"
+                Click="Click_btnDebug">
+            </Button>
         </Grid>
+
+        <TextBlock  
+            Grid.Row="1"
+            Text="【Log】"/>
+
+        <TextBlock  
+            x:Name="lblLog"
+            Text=""
+            Margin="5"
+        />
+
     </Grid>
 </Page>
