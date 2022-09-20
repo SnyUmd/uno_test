@@ -26,5 +26,30 @@ namespace Uno_App
         {
             this.InitializeComponent();
         }
+
+        private void Click_btnPopUp(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Click_btnFileRead(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Click_btnOpenPage(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Click_btnReadGPIO(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Click_btnDebug(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

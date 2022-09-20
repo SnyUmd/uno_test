@@ -5,10 +5,82 @@
     xmlns:local="using:Uno_App"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"    
+    mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-      <TextBlock Text="Hello, world!" Margin="20" FontSize="30" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Button Grid.Column="0"
+                    Grid.Row="0"
+                    x:Name="btnPopUp"
+                    Content="PopUp"
+                    FontSize="10"
+                    Width ="150"
+                    Height ="40"
+                    HorizontalAlignment="Center"
+                    Click ="Click_btnPopUp"
+                    />
+            <Button Grid.Column="2"
+                    Grid.Row="0"
+                    x:Name="btnFileRead"
+                    Content="FileRead"
+                    FontSize="10"
+                    Width="150"
+                    Height="40"
+                    HorizontalAlignment="Center"
+                    Click="Click_btnFileRead"
+                    />
+            <Button Grid.Column="0"
+                    Grid.Row="1"
+                    x:Name="btnOpenPage"
+                    Content="Open page"
+                    FontSize="10"
+                    Width="150"
+                    Height="40"
+                    HorizontalAlignment="Center"
+                    Click="Click_btnOpenPage"
+                    />
+            
+            
+
+            <Button Grid.Column="0"
+                    Grid.Row="2"
+                    x:Name="btnReadGPIO"
+                    Content="Read Linux GPIO"
+                    FontSize="10"
+                    Width="150"
+                    Height="40"
+                    HorizontalAlignment="Center"
+                    Click="Click_btnReadGPIO"
+                    />
+            <Button Grid.Column="2"
+                    Grid.Row="2"
+                    x:Name="btnDebug"
+                    Content="Debug000"
+                    FontSize="10"
+                    Width="150"
+                    Height="40"
+                    HorizontalAlignment="Center"
+                    Click="Click_btnDebug"
+                    />
+
+        </Grid>
     </Grid>
 </Page>

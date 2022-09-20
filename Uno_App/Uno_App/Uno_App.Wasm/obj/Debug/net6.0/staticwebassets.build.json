@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "Ku9O9ASy1bcGLrsnBpaaEJOfv9VPACU6iWzSq5sh6zY=",
+  "Source": "Uno_App.Wasm",
+  "BasePath": "_content/Uno_App.Wasm",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Uno_App.Wasm\\wwwroot",
+      "Source": "Uno_App.Wasm",
+      "ContentRoot": "C:\\Users\\barnet\\Documents\\_bnt\\_sn\\!git\\uno_test\\Uno_App\\Uno_App\\Uno_App.Wasm\\wwwroot\\",
+      "BasePath": "_content/Uno_App.Wasm",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\barnet\\Documents\\_bnt\\_sn\\!git\\uno_test\\Uno_App\\Uno_App\\Uno_App.Wasm\\wwwroot\\web.config",
+      "SourceId": "Uno_App.Wasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\barnet\\Documents\\_bnt\\_sn\\!git\\uno_test\\Uno_App\\Uno_App\\Uno_App.Wasm\\wwwroot\\",
+      "BasePath": "_content/Uno_App.Wasm",
+      "RelativePath": "web.config",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web.config"
+    }
+  ]
+}
